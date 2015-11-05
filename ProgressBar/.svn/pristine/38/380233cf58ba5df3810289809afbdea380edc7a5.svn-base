@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+    <project name="Nnat Demo Maker" default="buildSolution">	
+	<property name="MSBuildPath" value="C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe"/>
+    <target name="buildSolution">
+        <exec program="${MSBuildPath}">
+            <arg line='"WpfProgressBarDemo.csproj"' />
+            <arg line='/property:Configuration="debug"' />
+            <arg value="/target:Build" />
+            <arg value="/verbosity:normal" />
+            <arg value="/nologo" />
+        </exec>
+    </target>
+    </project>

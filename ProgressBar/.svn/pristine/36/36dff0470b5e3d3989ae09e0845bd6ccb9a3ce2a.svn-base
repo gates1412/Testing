@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+    <project name="Nnat Demo Maker" default="build">
+	<property name="MSBuildPath" value="C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe"/>
+   	<target name="build">
+		<solution configuration="debug" solutionfile="WpfProgressBarDemo.sln" />
+   	</target>
+    </project>
