@@ -12,7 +12,7 @@
         <TextBlock FontSize="12" Foreground="Navy" Name="TextBlock1" Grid.Row="0" Grid.Column="0" Margin="4,4,4,4" TextWrapping="WrapWithOverflow"  >This is of course a demonstration of how to use a WPF ProgressBar in a "tight code loop".</TextBlock>
         <ProgressBar Grid.Row="1" Height="20" Width="200" Margin="0,4,0,0"   Name="ProgressBar1" HorizontalAlignment="Center"  VerticalAlignment="top"  />
         <Button Grid.Row="1" Height="23" Width="100" Name="Button1" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button1_Click" Margin="150,74,168,0">Start</Button>
-        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Cannot successfully compile" VerticalAlignment="Top" Width="206" Margin="109,10,0,0" Grid.Row="2"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Git testing right now" VerticalAlignment="Top" Width="206" Margin="109,10,0,0" Grid.Row="2"/>
 
 
     </Grid>
